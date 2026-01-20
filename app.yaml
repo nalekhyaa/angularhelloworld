@@ -7,7 +7,7 @@ handlers:
     upload: dist/hello-world/index.html
   - url: /
     static_dir: dist/hello-world
-skip_files:git add newfile.ts
+skip_files:
   - e2e/
   - node_modules/
   - src/
