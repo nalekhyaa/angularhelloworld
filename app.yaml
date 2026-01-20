@@ -11,3 +11,7 @@ handlers:
 - url: /(.*)
   static_files: dist/hello-world/\1
   upload: dist/hello-world/(.*)
+
+- url: /.*
+  static_files: dist/hello-world/index.html
+  upload: dist/hello-world/index.html
