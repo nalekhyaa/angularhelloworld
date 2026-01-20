@@ -3,10 +3,10 @@ api_version: 1
 threadsafe: true
 handlers:
   - url: /
-    static_files: dist/MyWork/index.html
-    upload: dist/MyWork/index.html
+    static_files: dist/hello-world/index.html
+    upload: dist/hello-world/index.html
   - url: /
-    static_dir: dist/MyWork
+    static_dir: dist/hello-world
 skip_files:git add newfile.ts
   - e2e/
   - node_modules/
