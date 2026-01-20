@@ -1,6 +1,5 @@
-runtime: python27
+runtime: nodejs18
 api_version: 1
-threadsafe: true
 handlers:
   - url: /
     static_files: dist/hello-world/index.html
